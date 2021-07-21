@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_LitLavafall
+  m_Shader: {fileID: 4800000, guid: dd435d354f1834dda959b719411f6f8e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SideNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 8a26a7532946d46e7ba73c89e855878a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 1}
+    - _TopNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 83fd625eeacd544ceb1e5755a4ff348c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BrightNess: 0.74
+    - _EdgeWidth: 0.212
+    - _Foam: 6.75
+    - _Glossiness: 0.5
+    - _HorSpeed: 0.075
+    - _Metallic: 0
+    - _NoiseScale: 0.019
+    - _RIM: 0
+    - _RimPower: 2.93
+    - _Softness: 0.211
+    - _TopScale: 0.023
+    - _TopSpread: 0.13
+    - _VERTEX: 0
+    - _VertSpeed: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 0.7264151, g: 0.6919292, b: 0.3255162, a: 1}
+    - _RimColor: {r: 1, g: 0.81205463, b: 0.3915094, a: 1}
+    - _TColor: {r: 1, g: 0, b: 0, a: 1}
+    - _WaterColor: {r: 0, g: 0.7992902, b: 1, a: 1}
